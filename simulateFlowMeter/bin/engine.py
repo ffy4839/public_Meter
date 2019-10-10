@@ -30,7 +30,7 @@ class flow_meter():
 
                 'pressure': round(self.pressure,5),
                 'temperature': round(self.temperature,5),
-                    }
+                }
             return res
 
     def run(self,n=5):

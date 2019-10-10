@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4ebd7fbb-1bad-49f6-ad63-c1735684a5e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/bin/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/serials.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/serials.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protocol/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/protocol/protocol.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/engine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -81,9 +79,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="E:/测试中/20190916-宁波兴光燃气集团有限公司-民用铝壳NB表需求/test.py" />
-        <option value="$PROJECT_DIR$/bin/engine.py" />
         <option value="$PROJECT_DIR$/protocol/protocol.py" />
         <option value="$PROJECT_DIR$/bin/serials.py" />
+        <option value="$PROJECT_DIR$/bin/engine.py" />
       </list>
     </option>
   </component>
@@ -236,8 +234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/engine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
