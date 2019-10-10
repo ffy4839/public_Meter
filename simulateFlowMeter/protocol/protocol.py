@@ -1,4 +1,4 @@
-from flowMeter.bin.func import *
+from bin.func import *
 
 
 

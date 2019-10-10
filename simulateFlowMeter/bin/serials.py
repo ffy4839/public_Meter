@@ -1,4 +1,4 @@
-from flowMeter.bin.func import *
+from bin.func import *
 
 
 class serial_flowMeter(serial.Serial):
@@ -22,7 +22,6 @@ class serial_flowMeter(serial.Serial):
 
         if not self.is_open:
             self.opened()
-
 
         try:
             data = unhexlify(data.encode())
@@ -48,28 +47,19 @@ class serial_flowMeter(serial.Serial):
 
     def recv_parse(self, data):
         parse_data = ''
-        parse = True
-        if parse:
-            try:
-                parse_data = hexlify(parse_data).decode().upper()
-                parse = False
-            except:
-                parse = True
-        if parse:
-            try:
-                parse_data = data.decode('ascii')
-                parse = False
-            except:
-                parse = True
-        if parse:
-            try:
-                parse_data = data.decode('GBK').replace('\n','').replace('\r','')
-                parse = False
-            except:
-                parse = True
+        try:
+            parse_data = hexlify(parse_data).decode().upper()
+        except: pass
 
-        if not parse:
-            return parse_data
+        try:
+            parse_data = data.decode('ascii')
+        except: pass
+
+        try:
+            parse_data = data.decode('GBK').replace('\n', '').replace('\r', '')
+        except: pass
+
+        return parse_data
 
     def opened(self):
         if not self.is_open:
